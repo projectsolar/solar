@@ -4,7 +4,7 @@ from models import DecBase
 from sqlalchemy.orm import relationship
 ]
 class Content(DecBase):
-    """ A content object represents all relevent information for a submission.
+    """ A content object represents all relevant information for a submission.
         Attributes:
             poster_address: address of poster where points will be sent to
             payload: actual content in text form (can be url to image, video, article etc)

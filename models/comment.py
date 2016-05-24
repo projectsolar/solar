@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 
 
 class Comment(DecBase):
-    """ A post is a type of content that can be submitted. 
+    """ A comment is text response to a piece of content or another comment. 
         Attributes:
             post_id: ID of the content which the comment was made about 
     """

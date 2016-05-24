@@ -3,11 +3,9 @@ from models import DecBase
 
 
 class User(DecBase):
-    """ A mod (moderator) is a user or collection of users that filter content in the community
-        Users will be able to subscribe to groups of mods or individual mods to filter their 
-        content as they see fit.
+    """ A user is a person who interacts with the solar network by browsing, posting, or commenting in beams.
         Attributes:
-            seed: 
+            seed: BIP32 XPrivKey used to generate Bitcoin wallets
             url: address of users personal page
     """
     __tablename__ = 'user'

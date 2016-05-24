@@ -3,7 +3,7 @@ from models import DecBase
 
 
 class Moderator(DecBase):
-    """ A moderator (mod) is a user or collection of users that filter content in the community
+    """ A moderator (mod) is a user or collection of users that filter content in the community.
         Users will be able to subscribe to groups of mods or individual mods to filter their 
         content as they see fit.
         Attributes:
